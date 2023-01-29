@@ -324,7 +324,7 @@ footer ul li {
     display: block;
     width: 64px;
     height: 64px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .card-content {
