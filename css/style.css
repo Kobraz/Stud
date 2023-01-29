@@ -261,7 +261,7 @@ hr {
         font-size: 22px;
     }
 
-    footer {
+    main {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -278,13 +278,13 @@ hr {
 
 
 
-footer {
+main {
     justify-content: center;
     display: flex;
     gap: 4em;
   }
   
-footer ul li {
+main ul li {
     list-style: none;
     margin: 0;
     padding: 0;
