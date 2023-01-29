@@ -300,7 +300,7 @@ main ul li {
 
 .grid-item {
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
     transition: 0.2s;
@@ -318,7 +318,7 @@ main ul li {
     height: 90px;
     object-fit: cover;
     background-color: var(--basecolor);
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-img {
@@ -348,13 +348,6 @@ main ul li {
     margin-bottom: 2.5rem;
 }
 
-.opening-hours {
-    column-count: 2;
-}
-
-.map {
-    border: 0.5px solid #3d3d3d;
-}
 
 .map:hover {
     border: 0.5px solid #3d3d3d;
