@@ -325,7 +325,7 @@ main ul li {
     width: 64px;
     height: 64px;
     /*object-fit: cover;*/
-    justify-self: center;
+    align-self: center;
 }
 
 .card-content {
