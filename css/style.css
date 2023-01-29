@@ -318,6 +318,7 @@ main ul li {
     height: 90px;
     object-fit: cover;
     background-color: var(--basecolor);
+    border-radius: 10px 10px 0 0;
 }
 
 .card-img {
@@ -325,7 +326,7 @@ main ul li {
     width: 64px;
     height: 64px;
     align-self: center;
-    margin: 13px auto;
+    /*margin: 13px auto;*/
 }
 
 .card-content {
