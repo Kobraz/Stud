@@ -5,7 +5,7 @@
 }
 
 :root {
-    --basepink: #F63EB8;
+    --basecolor: #F63EB8;
 }
 
 
@@ -64,14 +64,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--basepink);
+    color: var(--basecolor);
 }
 
 .pageTitle {
     font-family: 'Amaranth', sans-serif;
     font-size: 40px;
     font-weight: bold;
-    color: var(--basepink);
+    color: var(--basecolor);
     margin-left: 10px;
 }
 
@@ -126,7 +126,7 @@ nav ul li a:hover {
     content: '';
     width: 10px;
     height: 40px;
-    background-color: var(--basepink);
+    background-color: var(--basecolor);
     position: absolute;
     left: -40px;
     top: 8px;
@@ -149,7 +149,7 @@ nav ul li a:hover {
 .col-2 img {
     width: 100%;
     display: block;
-    border-right:var(--basepink) 10px solid;
+    border-right:var(--basecolor) 10px solid;
   }
 
 
@@ -182,7 +182,7 @@ hr {
 
     nav ul {
         width: 100%;
-        background: var(--basepink);
+        background: var(--basecolor);
         position: absolute;
         top: 75px;
         right: 0;
@@ -206,7 +206,7 @@ hr {
     #menuList {
         overflow: hidden;
         transition: 0.3s ease-in-out max-height;
-        background-color: var(--basepink);
+        background-color: var(--basecolor);
         height: 200px;
         font-size: 10px;
     }
@@ -230,7 +230,7 @@ hr {
     .col-2 img {
         width: 100%;
         display: block;
-        border-right: var(--basepink) 5px solid;
+        border-right: var(--basecolor) 5px solid;
       }
 
     .boxText {
@@ -317,6 +317,7 @@ footer ul li {
     width: 100%;
     height: 140px;
     object-fit: cover;
+    background-color: var(--basecolor);
 }
 
 .card-content {
