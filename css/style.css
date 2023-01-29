@@ -321,7 +321,7 @@ main ul li {
 }
 
 .card-img {
-    display: flex;
+    flex-wrap: wrap;
     width: 64px;
     height: 64px;
     /*object-fit: cover;*/
