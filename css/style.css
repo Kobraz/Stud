@@ -318,7 +318,8 @@ main ul li {
     height: 90px;
     object-fit: cover;
     background-color: var(--basecolor);
-    /*border-radius: 10px 10px 0 0;*/
+    border-radius: 10px 10px 0 0;
+    margin-top: 0;
 }
 
 .card-img {
