@@ -1,0 +1,46 @@
+button {
+    color: white;
+    background-color: slateblue;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    display:block;
+    
+}
+
+button :hover {
+    background-color: red;
+}
+
+input {
+    display: flex;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    float: left;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.checked-off {
+    color: rgb(147, 89, 89);
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+li {
+    font-weight: bold;
+}
+
+.form {
+    display: inline-block;
+}
+
