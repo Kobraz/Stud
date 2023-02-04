@@ -18,6 +18,7 @@ button :hover {
 input {
     display: flex;
     border-color: blue;
+    background-color: lightblue;
     border-width: 2px;
     border-radius: 5px;
     height: 25px;
