@@ -1,0 +1,10 @@
+.container {
+    border: 1px #999 solid;
+    padding: 1rem;  
+}
+
+.container div {
+    border: 1px #999 solid;
+    padding: 1rem; 
+    margin-bottom: .5rem; 
+}
