@@ -6,7 +6,12 @@ const options = {
 	}
 };
 
-fetch('https://car-data.p.rapidapi.com/cars?limit=50&page=10', options)
+fetch('https://car-data.p.rapidapi.com/cars?make=Volvo', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+
+console.log(response);
+		
+
+
