@@ -6,7 +6,7 @@ const options = {
 	}
 };
 
-fetch('https://car-data.p.rapidapi.com/cars?make=Volvo', options)
+fetch('http://api.fakeshop-api.com', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
