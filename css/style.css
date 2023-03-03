@@ -362,6 +362,24 @@ main ul li {
     margin-bottom: 2.5rem;
 }
 
+.card-text2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+
+.card-text2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+
 
 .map:hover {
     border: 0.5px solid #3d3d3d;
