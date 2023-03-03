@@ -292,7 +292,7 @@ main ul li {
 
   .grid {
     display: grid;
-    width: 100em;
+    width: 120em;
     grid-gap: 5rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
     align-items: start;
