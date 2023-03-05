@@ -1,3 +1,5 @@
+let response = "";
+
 const options = {
 	method: 'GET',
 	headers: {
