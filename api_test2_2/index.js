@@ -1,19 +1,13 @@
-let response = "";
+fetch("https://fakestoreapi.com/products").then((data)=>{
+    
+    return data.json();
+}).then((objectData)=>{
+    console.log(objectData[0].title);
+    let tableData="";
+    objectData.map((values)=>{
+        tableData+=`<a href="details.html?id=${values.id}">${values.title}</a>`;
+    });
+    document.getElementById("output").innerHTML=tableData;
 
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'c718b2dfccmsh0cbd42aac7fb08ep110b48jsnc0168724acac',
-		'X-RapidAPI-Host': 'car-data.p.rapidapi.com'
-	}
-};
-
-fetch('http://api.fakeshop-api.com', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
-
-console.log(response);
-		
-
-
+    //const apiArray = [${values.id},${values.title}, ${values.description}, ${values.price}, ${values.category}, ${values.rating}, ${values.image}]
+})
