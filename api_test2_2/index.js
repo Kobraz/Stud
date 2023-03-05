@@ -5,7 +5,7 @@ fetch("https://fakestoreapi.com/products").then((data)=>{
     console.log(objectData[0].title);
     let tableData="";
     objectData.map((values)=>{
-        tableData+=`<div id="${values.id}" class="items"><img src="${values.image}"><a href="details.html?id=${values.id}">${values.title}</a></div>`;
+        tableData+=`<div id="${values.id}" class="items"><img class="image" src="${values.image}"><a href="details.html?id=${values.id}">${values.title}</a></div>`;
     });
     document.getElementById("output").innerHTML=tableData;
 
